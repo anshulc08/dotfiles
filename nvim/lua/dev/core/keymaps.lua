@@ -22,7 +22,7 @@ keymap.set("n", "<leader>so", "<C-w>w") -- go to next window
 -- buffers management
 keymap.set("n", "<leader>w", ":bn<CR>") -- next buffer
 keymap.set("n", "<leader>q", ":bp<CR>") -- previous buffer
-keymap.set("n", "<leader>bc", ":bd<CR>") -- close buffer
+keymap.set("n", "<leader>c", ":bd<CR>") -- close buffer
 
 -- tabs management
 keymap.set("n", "<leader>to", ":tabnew<CR>") -- open new tab
